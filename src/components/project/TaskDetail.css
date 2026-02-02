@@ -1,0 +1,66 @@
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Trash icon styling */
+td svg {
+  transition: transform 0.2s ease;
+}
+
+td svg:hover {
+  transform: scale(1.2);
+  color: darkred;
+}
+
+/* Section header */
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Buttons */
+/* button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin: 5px 10px 5px 0;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+.cancel-btn {
+  background-color: #ccc !important;
+  color: black !important;
+}
+
+.cancel-btn:hover {
+  background-color: #bbb !important;
+}

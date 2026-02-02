@@ -1,0 +1,121 @@
+.calendar-container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  font-family: sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.calendar-header {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calendar-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.calendar-header button {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+}
+
+.calendar-day {
+  font-weight: bold;
+  color: #555;
+}
+
+.calendar-date {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  transition: 0.3s;
+}
+
+.calendar-date:hover {
+  background-color: #ddd;
+}
+
+.today {
+  background-color: #007bff;
+  color: white;
+}
+
+.calendar-modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  z-index: 1000;
+  position: relative;
+}
+
+.calendar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.calendar-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.month-title {
+  margin: 0 12px;
+  width: 200px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+  padding: 4px 4px;
+  width: 60px;
+}
+
+.year-dropdown {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.month-dropdown{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;   
+    width: 100px;
+}

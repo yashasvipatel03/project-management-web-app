@@ -1,0 +1,57 @@
+.monthly-timesheet-container {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.dropdowns {
+    margin-bottom: 20px;
+}
+
+.timesheet-table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.week-header {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  text-align: left;
+}
+
+.user-row td {
+  text-align: center;
+  padding: 8px;
+  width: 30px;
+}
+
+.monthly-timesheet input {
+  width: 60px;
+  text-align: center;
+}
+
+.week-section h3 {
+    margin-top: 30px;
+}
+.timesheet-table {
+  overflow-x: auto;
+  display: block;
+}
+
+
+.year-dropdown {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.month-dropdown{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;   
+    width: 100px;
+    margin-bottom: 10px;
+}
